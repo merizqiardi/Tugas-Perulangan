@@ -4,14 +4,14 @@
 
 1. Tugas PPT
 
-- [ ] Buat program untuk mencari nilai terbesar dari sejumlah bilangan yang dimasukkan!
-- [x] Buat program untuk menampilkan contoh berdasarkan (ada di files)
-- [x] Menampilkan deret bilangan: cacah, genap, gasal, fibonacci
-- [x] Menampilkan pola segitiga: pascal, genap, gasal
-- [ ] Perhitungan statistic: MAX, MIN, AVERAGE, TOTAL 
-- [ ] Perhitungan Matematika: perpangkatan, perkalian, FPB, KPK 
-- [ ] Buatlah program untuk mencetak hasil 2N, nilai N diinputkan
+- [ ] Tugas 1Buat program untuk mencari nilai terbesar dari sejumlah bilangan yang dimasukkan!
+- [x] Tugas 2 Buat program untuk menampilkan contoh berdasarkan (ada di files)
+- [x] Tugas 3 Menampilkan deret bilangan: cacah, genap, gasal, fibonacci
+- [x] Tugas 4 Menampilkan pola segitiga: pascal, genap, gasal
+- [ ] Tugas 5 Perhitungan statistic: MAX, MIN, AVERAGE, TOTAL 
+- [ ] Tugas 6 Perhitungan Matematika: perpangkatan, perkalian, FPB, KPK 
+- [x] Tugas 7 Buatlah program untuk mencetak hasil 2^N, nilai N diinputkan
 
-2. Tugas LKM
+1. Tugas LKM
 - [ ] Tugas LKM 6
 - [ ] Tugas LKM 7
