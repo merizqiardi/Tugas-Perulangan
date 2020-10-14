@@ -22,7 +22,7 @@ int perkalian(int a, int b)
 int KPK(int p, int q)
 {
     int hasil = 2;
-    while (true)
+    while (hasil <= p*1)
     {
         if (p % hasil == 0 && q % hasil == 0)
         {
@@ -36,16 +36,19 @@ int KPK(int p, int q)
 
 int FPB(int p, int q)
 {
-    /*
-    int hasil[100];
-    int i = 0;
-    while (true)
+
+    // Cari FPB dari p dan b, jika 
+    for (int i = 0; i < p; i++)
     {
-        if 
+        if (p % i == 0 && q % i == 0) 
+        {
+
+        }
     }
     
+    
     return hasil;
-    */
+    
     return 0;
 }
 
