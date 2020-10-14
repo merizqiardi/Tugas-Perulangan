@@ -3,39 +3,28 @@ Buat program untuk mencari nilai terbesar dari sejumlah bilangan yang dimasukkan
 */
 
 #include <iostream>
-using namespace std;
-int n; // Banyak bilangan yang akan dimasukkan
-int terbesar; // Bilangan terbesar
-
+int byk;                        // Banyak angka yang akan diproses
+int a, b = 0;                   // Angka yang akan diproses
+int MAX;                        // Angka Terbesar
 main()
 {
-
-
-    
-    /*
-    // Memasukkan banyak bilangan yang dicari
-    cout << "Masukkan banyak bilangan yang ingin dimasukkan (dua atau lebih): ";
-    cin >> n;
-    
-    // Memasukkan bilangan-bilangannya ke dalam array agar mudah dibandingkan
-    cout << "Masukkan bilangan-bilangannya (dipisah dengan spasi):\n";
-    float bil[100];
-    for (float i = 0; i < n; i++)
+    std::cout << "Berapa banyak angka yang ingin Anda isi?\n";
+    std::cin >> byk;
+    std::cout << "Isi bilangan-bilangannya, dipisah dengan tanda spasi: \n";
+    for (int i = 0; i < byk; i++)
     {
-        cin >> bil[n];
-    }
-
-    // Membandingkan bilangan-bilangan
-    for (int i = 1; i < n; i++)
-    {
-        if (bil[i] > bil[i-1]) {
-            terbesar = i;
-        }
-        else
+        std::cin >> a;
+        // Membandingkan angka sekarang (a) dan angka iterasi sebelumnya (b) untuk mencari MAX
+        if (i == 0)
         {
-            terbesar = i-1;
-        }  
+            b = a;
+        }
+        // Mencari MAX
+        if (b <= a)
+        {
+            MAX = a;
+        }
+        b = a;
     }
-    cout << "Bilangan terbesar adalah " << terbesar;
-    */
+    std::cout << "Angka terbesar adalah " << MAX;
 }
