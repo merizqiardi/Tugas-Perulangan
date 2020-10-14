@@ -19,6 +19,20 @@ int perkalian(int a, int b)
     return a * b;
 }
 
+
+// Pencarian FPB dua bilangan menggunakan Euclidean Algorithm
+int FPB(int p, int q)
+{
+    if (q == 0)
+    {
+        return p;
+    } 
+    else 
+    {
+        FPB(q, p % q);
+    }
+}
+
 int KPK(int p, int q)
 {
     int hasil = 2;
@@ -30,26 +44,7 @@ int KPK(int p, int q)
         }
         hasil++;
     }
-
     return hasil;
-}
-
-int FPB(int p, int q)
-{
-
-    // Cari FPB dari p dan b, jika 
-    for (int i = 0; i < p; i++)
-    {
-        if (p % i == 0 && q % i == 0) 
-        {
-
-        }
-    }
-    
-    
-    return hasil;
-    
-    return 0;
 }
 
 main()
@@ -77,10 +72,10 @@ main()
         break;
     case 3:
         int fpb1, fpb2;
-        std::cout << "Angka pertama: ";
-        std::cin >> x;
+        std::cout << "Angka pertama (pastikan angka pertama merupakan yang paling besar): ";
+        std::cin >> fpb1;
         std::cout << "Angka kedua: ";
-        std::cin >> y;
+        std::cin >> fpb2;
         std::cout << "FPB-nya adalah " << FPB(fpb1,fpb2); // Ke fungsi ganjil()
         break;
     case 4:
@@ -93,6 +88,5 @@ main()
         break;
     default:
         std::cout << "Isi dengan benar. ";
-        main();
     }
 }
