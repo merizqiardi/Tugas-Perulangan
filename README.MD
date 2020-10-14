@@ -15,9 +15,9 @@ Tugas Mata Kuliah Pemrograman Dasar tentang Perulangan
 
 2. Tugas LKM
    - [ ] Tugas LKM 6 Tulislah sebuah flowchart dan pseudocode dari penyelesaian kasus dalam menampilkan semua bilangan genap yang terletak antara 20 sampai dengan 120 dengan menggunakan `for`!
-   - [ ] Tugas LKM 7 Tulislah sebuah flowchart dan pseudocode dari penyelesaian kasus daftar perkalian dari 1 sampai 10 dengan perulangan `for`! Sehingga tampilannya akan seperti berikut ini:
+   - [ ] Tugas LKM 7 Tulislah sebuah flowchart dan pseudocode dari penyelesaian kasus daftar perkalian dari 1 sampai 10 dengan perulangan `for`! Sehingga tampilannya akan seperti berikut ini (tabel perkalian):
        ```
-       1 2 3 4 . . 
+         1 2 3 4 . . 
        1 1 2 3 4 . .
        2 2 4 6 8 . .
        3 3 6 9 10. .
