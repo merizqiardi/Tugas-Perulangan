@@ -5,7 +5,7 @@ Tugas Mata Kuliah Pemrograman Dasar tentang Perulangan
 ## To Do List 
 
 1. Tugas PPT
-   - [ ] Tugas 1 Buat program untuk mencari nilai terbesar dari sejumlah bilangan yang dimasukkan!
+   - [x] Tugas 1 Buat program untuk mencari nilai terbesar dari sejumlah bilangan yang dimasukkan!
    - [x] Tugas 2 Buat program untuk menampilkan contoh berdasarkan (ada di files)
    - [x] Tugas 3 Menampilkan deret bilangan: cacah, genap, gasal, fibonacci
    - [x] Tugas 4 Menampilkan pola segitiga: pascal, genap, gasal
