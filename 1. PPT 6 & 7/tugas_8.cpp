@@ -1,5 +1,5 @@
 /*
-Buatlah program untuk mencetak hasil 2N, nilai N diinputkan
+Buatlah program untuk mencetak hasil 2^N, nilai N diinputkan
 */
 
 #include <iostream>
@@ -11,5 +11,6 @@ main()
     cout << "Masukkan angka: ";
     cin >> N;
     cout << "2N adalah " << N*2;
-    
+    for ()
 }
+
