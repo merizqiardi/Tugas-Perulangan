@@ -19,17 +19,22 @@ int perkalian(int a, int b)
     return a * b;
 }
 
-
 // Pencarian FPB dua bilangan menggunakan Euclidean Algorithm
 int FPB(int p, int q)
 {
-    if (q == 0)
+    int r;
+    while (true) 
     {
-        return p;
-    } 
-    else 
-    {
-        FPB(q, p % q);
+        if (q == 0)
+        {
+            return p;
+        }
+        else
+        {
+            r = p % q;
+            p = q;
+            q = r;
+        }
     }
 }
 
