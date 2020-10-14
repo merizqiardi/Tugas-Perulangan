@@ -11,13 +11,13 @@ Tugas Mata Kuliah Pemrograman Dasar tentang Perulangan
    - [x] Tugas 4 Menampilkan pola segitiga: pascal, genap, gasal
    - [x] Tugas 5 Perhitungan statistic: MAX, MIN, AVERAGE, TOTAL 
    - [x] Tugas 6 Perhitungan Matematika: perpangkatan, perkalian, FPB, KPK 
-   - [x] Tugas 7 Buatlah program untuk mencetak hasil 2^N, nilai N diinputkan (Gak tau insstruksinya bener atau gak)
+   - [x] Tugas 7 Buatlah program untuk mencetak hasil 2^N, nilai N diinputkan (Gak tau instruksinya bener atau gak)
 
 2. Tugas LKM
    - [ ] Tugas LKM 6 Tulislah sebuah flowchart dan pseudocode dari penyelesaian kasus dalam menampilkan semua bilangan genap yang terletak antara 20 sampai dengan 120 dengan menggunakan `for`!
    - [ ] Tugas LKM 7 Tulislah sebuah flowchart dan pseudocode dari penyelesaian kasus daftar perkalian dari 1 sampai 10 dengan perulangan `for`! Sehingga tampilannya akan seperti berikut ini (tabel perkalian):
        ```
-         1 2 3 4 . . 
+       0 1 2 3 4 . . 
        1 1 2 3 4 . .
        2 2 4 6 8 . .
        3 3 6 9 10. .
