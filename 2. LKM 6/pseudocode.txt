@@ -1,0 +1,4 @@
+for (i = 21; i < 120; i++)
+    if (x % 2 == 0) then 
+        output x
+    output " "

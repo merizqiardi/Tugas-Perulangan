@@ -20,5 +20,5 @@ Tugas Mata Kuliah Pemrograman Dasar tentang Perulangan
        0 1 2 3 4 . . 
        1 1 2 3 4 . .
        2 2 4 6 8 . .
-       3 3 6 9 10. .
+       3 3 6 9 12. .
        ```
