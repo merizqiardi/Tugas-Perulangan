@@ -1,4 +1,4 @@
-for (i = 21; i < 120; i++)
+for (i = 21; i < 120; i++) do
     if (x % 2 == 0) then 
         output x
     output " "
