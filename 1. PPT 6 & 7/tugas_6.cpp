@@ -10,7 +10,6 @@ int pangkat(int angka, int n)
     {
         hasil*=angka;
     }
-    
     return hasil;
 }
 
@@ -40,16 +39,7 @@ int FPB(int p, int q)
 
 int KPK(int p, int q)
 {
-    int hasil = 2;
-    while (hasil <= p*1)
-    {
-        if (p % hasil == 0 && q % hasil == 0)
-        {
-            break;
-        }
-        hasil++;
-    }
-    return hasil;
+    return (p*q)/FPB(p,q);
 }
 
 main()

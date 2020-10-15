@@ -14,23 +14,26 @@ main()
     std::cout << "Isi bilangan-bilangannya, dipisah dengan tanda spasi: \n";
     for (int i = 0; i < byk; i++)
     {
-        std::cin >> a;
+        std::cin >> a; // Input nilai a 
 
         // Membandingkan angka sekarang (a) dan angka iterasi sebelumnya (b) untuk mencari MAX dan MIN  
+        
+        // 1. Jika iterasi pertama, samakan terlebih dahulu ke bilangan yang pertama diisi
         if (i == 0) 
         {
             b = a;
         }
-        // Mencari MAX
+        // 2. Mencari MAX
         if (b <= a) 
         {
             MAX = a;
         }
-        // Mencari MIN
+        // 3. Mencari MIN
         if (b >= a)
         {
             MIN = a;
         }
+        // Menyetor a sebagai ke b agar di iterasi selanjutnya dapat diketahui bilangan sebelumnya
         b = a;
 
         // Menambahkan a ke TOT, agar dapat diketahui total semua angka (TOT)
